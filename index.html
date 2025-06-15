@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISS info</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body>
+    <h1>International Space Station (ISS) Position info</h1>
+    <div class="infoBox">
+      <p>Latitude:</p>
+      <p id="latitude">Loading...</p>
+    </div>
+    <div class="infoBox">
+      <p>Longitude:</p>
+      <p id="longitude">Loading...</p>
+    </div>
+    <div class="infoBox">
+      <p>Altitude:</p>
+      <p id="altitude">Loading...</p>
+    </div>
+    <div class="infoBox">
+      <p>Speed:</p>
+      <p id="speed">Loading...</p>
+    </div>
+    <div class="infoBox">
+      <p>Current City:</p>
+      <p id="city">Loading...</p>
+    </div>
+    <div class="infoBox">
+      <p>Google maps link:</p>
+      <a href="" id="maps" target="_blank">Google maps</a>
+    </div>
+    <div class="infoBox mapBox">
+      <p>Live Map:</p>
+      <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="./main.js"></script>
+    <!-- Leaflet JS -->
+  </body>
+</html>
